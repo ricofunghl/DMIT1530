@@ -1,0 +1,36 @@
+body{
+	font-family: Arial, sans-serif;
+
+}
+
+.hidden {
+	display: none;
+}
+
+.content{
+	width: 1084px;
+	padding: 0 48px;
+	margin: 0 auto;
+}
+
+main,
+.page-header,
+.page-footer {
+	border: 3px solid black;
+	margin-bottom:24px;
+}
+
+.products {
+	float: left;
+	width: 359.3333px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
