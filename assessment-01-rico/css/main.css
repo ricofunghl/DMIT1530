@@ -1,0 +1,47 @@
+body {
+	width: 1040px;
+}
+.content {
+	width: 914px;
+	margin: 0 auto;
+}
+nav {
+	height: 37px;
+}
+nav img,
+nav p {
+	float:left;
+}
+nav div {
+	float:right;
+}
+nav,
+.banner {
+	width: 743px;
+	margin: 0 auto;
+}
+.banner {
+	text-align: center;
+}
+.orange-box {
+	border-radius: 8px;
+	background-color: orange;
+}
+.phone-box {
+	padding: 12px 43px;
+}
+.make-your-photobook-box {
+	font-size: 25.06px;
+	width: 331px;
+	border: solid black 2px;
+	margin: 0 auto;
+	padding: 24px 18px;
+}
+main {
+	text-align: center;
+	margin-top: 175px;
+}
+.main-icon {
+	width:25%;
+	float:left;
+}
