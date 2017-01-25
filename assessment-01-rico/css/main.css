@@ -1,12 +1,32 @@
 body {
 	width: 1040px;
-}
-.content {
-	width: 914px;
+	text-align:center;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
 	margin: 0 auto;
 }
+a {
+	text-decoration: none;
+	color: #3f391d;
+
+}
+h1 {
+	font-size: 2.6em;
+}
+h2 {
+	font-size: 1.3em;
+}
+span {
+	font-size: 150%;
+}
+li {
+	list-style: none;
+	display: inline;
+}
 nav {
+	width: 743px;
 	height: 37px;
+	margin: 30px auto 0 auto;
 }
 nav img,
 nav p {
@@ -15,33 +35,106 @@ nav p {
 nav div {
 	float:right;
 }
-nav,
+
 .banner {
 	width: 743px;
-	margin: 0 auto;
+	margin: 50px auto 0 auto;
 }
-.banner {
-	text-align: center;
+.banner h1 {
+	margin-bottom:5px;
+}
+.banner h2 {
+	margin-top: 10px;
+	margin-bottom:45px;
+}
+img[alt="menu icon"] {
+	margin: 7px 42px 7px 0;
+}
+nav p {
+	margin: 7px auto;
 }
 .orange-box {
 	border-radius: 8px;
-	background-color: orange;
+	background-color: #ffd200;
 }
 .phone-box {
-	padding: 12px 43px;
+	padding: 10px 43px;
+}
+img[alt="camera image"] {
+	margin-bottom: 43px;
 }
 .make-your-photobook-box {
-	font-size: 25.06px;
+	margin-top: 43px;
+	font-size: 1.5em;
 	width: 331px;
-	border: solid black 2px;
+	border: solid #919191 2px;
 	margin: 0 auto;
-	padding: 24px 18px;
+	padding: 17px 5px;
+}
+.banner a {
+	padding: 20px 9px;
+	color: #52481a ;
 }
 main {
 	text-align: center;
 	margin-top: 175px;
+	color: #cccccc;
 }
-.main-icon {
-	width:25%;
+.main-icon-list:before,
+.main-icon-list:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.main-icon-list:after {
+    clear: both;
+}
+.main-icon-list {
+	margin-top: 40px;
+	padding:0;
+
+}
+.main-icon-item {
+	width:134px;
 	float:left;
+	margin-left:0;
+	padding:0 63px;
+	position: relative;
+}
+
+.main-icon-item a {
+	color: #cccccc;
+	font-size: 1.3em;
+}
+img[alt="circle"] {
+	margin: 0 0 10px 0;
+}
+.main-icon-image {
+	position: absolute;
+}
+img[alt="download image"] {
+	top:46px;
+	left:104px;
+}
+img[alt="design image"] {
+	top:41px;
+	left:105px;
+}
+img[alt="pay image"] {
+	top:37px;
+	left:101px;
+}
+img[alt="get image"] {
+	top:42px;
+	left:104px;
+}
+footer {
+	font-size: 0.9em;
+	clear:both;
+	margin-top:140px;
+}
+footer ul {
+	padding: 0;
+	margin-top: 25px;
+	margin-bottom: 75px;
 }
